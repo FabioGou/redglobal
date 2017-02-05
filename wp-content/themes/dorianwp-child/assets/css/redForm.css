@@ -1,0 +1,218 @@
+
+.espaco-60{
+    height: 100px;
+}
+
+.espaco-40 {
+    height: 40px;
+}
+
+.espaco-20 {
+    height: 20px;
+}
+
+
+.form-control.red-control {
+    border-radius: 0;
+    /*line-height: 30px !important;*/
+    /*padding: 20px !important;*/
+}
+
+.form-control:focus {
+    border-color: #333 !important;
+    /*box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(30, 30, 30, 0.6) !important;*/
+}
+
+.form-control::-webkit-input-placeholder { font-family: monospace, serif; font-size: 12px }
+.form-control:-moz-placeholder { font-family: monospace, serif; font-size: 12px }
+.form-control::-moz-placeholder { font-family: monospace, serif; font-size: 12px }
+.form-control:-ms-input-placeholder { font-family: monospace, serif; font-size: 12px }
+
+.form-group.has-feedback i{
+    color: #999;
+}
+
+.formulario-desc{
+    font-size: 12px;
+    font-style: italic;
+    color: #ccc;
+}
+
+.form-titulo.jurid{
+    background: black;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.form-titulo.jurid>i, .form-titulo.jurid>h3 {
+    color: white;
+}
+
+.form-titulo>i, .form-titulo>h3 {
+    display: inline-block;
+    margin: 5px;
+}
+
+.form-titulo>h3{
+    text-transform: none;
+}
+
+/* BTN-PROSSEGUIR ================================================*/
+.btn-prosseguir{
+    display: table;
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+
+.btn-prosseguir>div {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 2px 5px;
+}
+
+.btn-prosseguir .btn-tit{
+    font-weight: bold;
+}
+
+.btn-prosseguir .btn-desc {
+    font-weight: lighter;
+    font-size: 11px;
+}
+
+.btn-prosseguir .btn-desc.dir, .btn-prosseguir .btn-tit.dir {
+    text-align: left;
+}
+
+.btn-prosseguir .btn-desc.esq, .btn-prosseguir .btn-tit.esq {
+    text-align: right;
+}
+
+/* BTN-PROSSEGUIR FIM ================================================*/
+
+
+/* NAVEGACAO ================================================*/
+.navegacao{
+    margin-bottom: 20px;
+    /*padding-bottom: 30px;*/
+    border-bottom: 1px solid #ccc;
+}
+
+.navegacao ul {
+    display: table;
+    /*list-style-type: none;*/
+    padding: 0;
+}
+
+.navegacao li {
+    display: table-cell !important;
+    text-align: center;
+    vertical-align: middle;
+    float: none !important;
+    /*border: 1px solid black;*/
+}
+
+
+.nav-form {
+    display: block;
+}
+
+.nav-form div{
+    display: block;
+}
+
+.nav-form>li>a {
+    text-decoration: none;
+    color:  #ccc;
+}
+
+.nav-form>li>a:hover {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.nav-form .nav-img {
+    position: relative;
+    /*background-color: #ccc;*/
+    height: 50px;
+    padding: 0;
+}
+
+.nav-form .nav-img>.icone {
+    display: inline-block;
+    /*position: absolute;*/
+    background: #ccc;
+    color: white;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    left: 35%;
+    width: 50px;
+    /*height: 50px;*/
+
+    padding: 15px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.nav-form .nav-img>.icone.ativo {
+    background: red;
+}
+
+.nav-form .nav-img>.icone.feito {
+    background: #000;
+}
+
+.nav-form .nav-titulo{
+    font-weight: bold;
+    color: black;
+}
+
+.nav-form .nav-desc{
+    font-weight: lighter;
+    font-size: 11px;
+    color: #ccc;
+    padding: 2px 5px;
+}
+
+#passo2, #passo3, #passo4{
+    display: none;
+}
+
+/* NAVEGACAO FIM ================================================*/
+
+select.red-control {
+    font-family: monospace, serif;
+    font-size: 12px;
+}
+
+/* FORMULARIO TABELA =========================================== */
+
+.formulario-tabela {
+
+    text-align: left;
+    font-size: 14px;
+    /*margin: 20px;*/
+    padding: 10px;
+
+    border: 1px solid #ccc;
+}
+
+.formulario-tabela td{
+    text-align: left;
+    border: none;
+    padding: 5px 20px;
+}
+
+.formulario-tabela tr {
+    border:none;
+}
+
+.formulario-tabela td.esq {
+    color: #ccc;
+    width: 30%;
+
+}
+
+.formulario td.dir {
+    font-family: monospace, serif !important;
+    /*width: 60%;*/
+}
